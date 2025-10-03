@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generator Caption Instagram</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Generator Caption Instagram 📸</h1>
+        <p>Isi detail di bawah untuk mendapatkan 3 variasi caption Instagram secara otomatis.</p>
+
+        <form id="caption-form">
+            <div class="form-group">
+                <label for="nama_produk">Nama Produk:</label>
+                <input type="text" id="nama_produk" name="nama_produk" required>
+            </div>
+
+            <div class="form-group">
+                <label for="kategori">Kategori:</label>
+                <input type="text" id="kategori" name="kategori" placeholder="Contoh: Makanan, Fashion" required>
+            </div>
+
+            <div class="form-group">
+                <label for="harga">Harga:</label>
+                <input type="text" id="harga" name="harga" placeholder="Contoh: Rp 25.000" required>
+            </div>
+
+            <div class="form-group">
+                <label for="usp">Unique Selling Point (USP):</label>
+                <input type="text" id="usp" name="usp" placeholder="Keunggulan unik produk Anda" required>
+            </div>
+
+            <div class="form-group">
+                <label for="target_audiens">Target Audiens:</label>
+                <input type="text" id="target_audiens" name="target_audiens" placeholder="Contoh: Mahasiswa, Ibu muda" required>
+            </div>
+
+            <div class="form-group">
+                <label for="tone">Tone (Gaya Bahasa):</label>
+                <input type="text" id="tone" name="tone" placeholder="Contoh: Ceria, Profesional, Santai" required>
+            </div>
+
+            <div class="form-group">
+                <label for="cta">Call to Action (CTA):</label>
+                <input type="text" id="cta" name="cta" placeholder="Contoh: Pesan sekarang!, Kunjungi link di bio" required>
+            </div>
+
+            <button type="submit">Buat Caption</button>
+        </form>
+
+        <div id="hasil-container">
+            <h2>Hasil Caption:</h2>
+            <div id="hasil-caption">
+                <p>- Belum ada hasil -</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script-caption.js"></script> 
+</body>
+</html>

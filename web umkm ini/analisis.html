@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analisis Pasar Mini</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Analisis Pasar Mini 📊</h1>
+        <p>Dapatkan wawasan singkat tentang pasar untuk ide bisnis Anda.</p>
+
+        <form id="analisis-form">
+            <div class="form-group">
+                <label for="jenis-usaha">Jenis Usaha:</label>
+                <input type="text" id="jenis-usaha" name="jenis-usaha" placeholder="Contoh: Kedai Kopi, Butik Pakaian" required>
+            </div>
+
+            <div class="form-group">
+                <label for="lokasi">Lokasi Target:</label>
+                <input type="text" id="lokasi" name="lokasi" placeholder="Contoh: Jakarta Selatan, Pusat Kota Bandung" required>
+            </div>
+
+            <div class="form-group">
+                <label for="produk">Produk Unggulan:</label>
+                <input type="text" id="produk" name="produk" placeholder="Contoh: Kopi Susu Gula Aren, Hijab Voal" required>
+            </div>
+
+            <button type="submit">Lakukan Analisis</button>
+        </form>
+
+        <div id="hasil-container">
+            <h2>Hasil Analisis:</h2>
+            <div id="hasil-analisis">
+                <p>- Belum ada hasil -</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script-analisis.js"></script> 
+</body>
+</html>

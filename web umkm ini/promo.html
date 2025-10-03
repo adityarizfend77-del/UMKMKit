@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rencana Promo Mingguan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Rencana Promo Mingguan 🗓️</h1>
+        <p>Susun strategi promosi 5 hari (Senin-Jumat) untuk produk Anda.</p>
+
+        <form id="promo-form">
+            <div class="form-group">
+                <label for="produk">Produk yang Dipromosikan:</label>
+                <input type="text" id="produk" name="produk" placeholder="Contoh: Kemeja Flanel, Donat Cokelat" required>
+            </div>
+
+            <div class="form-group">
+                <label for="tujuan">Tujuan Promosi:</label>
+                <input type="text" id="tujuan" name="tujuan" placeholder="Contoh: Meningkatkan penjualan 20%" required>
+            </div>
+
+            <div class="form-group">
+                <label for="budget">Budget:</label>
+                <input type="text" id="budget" name="budget" placeholder="Contoh: Rp 100.000, atau Organik" required>
+            </div>
+
+            <div class="form-group">
+                <label for="platform">Platform Utama:</label>
+                <input type="text" id="platform" name="platform" placeholder="Contoh: Instagram, Facebook, TikTok" required>
+            </div>
+
+            <button type="submit">Buat Rencana</button>
+        </form>
+
+        <div id="hasil-container">
+            <h2>Hasil Rencana Promosi:</h2>
+            <div id="hasil-promo">
+                <p>- Belum ada hasil -</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script-promo.js"></script> 
+</body>
+</html>
